@@ -12,7 +12,7 @@
 		<OriginalLibrary/>
 
 		<!-- Load method for xSE plugins, 'ImportAddressHook' by default. Don't change unless required. -->
-		<LoadMethod Name="ImportAddressHook">
+		<LoadMethod Name="OnThreadAttach">
 			<!--
 				# ImportAddressHook
 
